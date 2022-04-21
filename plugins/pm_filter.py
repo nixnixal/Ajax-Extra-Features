@@ -755,28 +755,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-             text="❀     "
-        )
-        await query.message.edit_text(
-            text="❀❀    "
-        )
-        await query.message.edit_text(
-            text="❀❀❀   "
-        )
-        await query.message.edit_text(
-            text="❀❀❀❀  "
-        )
-        await query.message.edit_text(
-            text="❀❀❀❀❀ "
-        )
-        await query.message.edit_text(
-            text="lσαdíng"
-        )
-        await query.message.edit_text(
-            text="𝙲𝙰𝙿𝚃𝙰𝙸𝙽 𝙼𝙰𝚁𝚅𝙴𝙻⚡"
-        await reply7.delete()
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
@@ -805,28 +783,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton(text="𝖢𝗅𝗈𝗌𝖾", callback_data="close_data")
         ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-             text="❀     "
-        )
-        await query.message.edit_text(
-            text="❀❀    "
-        )
-        await query.message.edit_text(
-            text="❀❀❀   "
-        )
-        await query.message.edit_text(
-            text="❀❀❀❀  "
-        )
-        await query.message.edit_text(
-            text="❀❀❀❀❀ "
-        )
-        await query.message.edit_text(
-            text="lσαdíng"
-        )
-        await query.message.edit_text(
-            text="𝙲𝙰𝙿𝚃𝙰𝙸𝙽 𝙼𝙰𝚁𝚅𝙴𝙻⚡"
-        await reply7.delete()
         reply_markup = InlineKeyboardMarkup(buttons)        
         await query.message.edit_text(        
             text="Select your required mode from below!",
@@ -877,28 +833,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-             text="❀     "
-        )
-        await query.message.edit_text(
-            text="❀❀    "
-        )
-        await query.message.edit_text(
-            text="❀❀❀   "
-        )
-        await query.message.edit_text(
-            text="❀❀❀❀  "
-        )
-        await query.message.edit_text(
-            text="❀❀❀❀❀ "
-        )
-        await query.message.edit_text(
-            text="lσαdíng"
-        )
-        await query.message.edit_text(
-            text="𝙲𝙰𝙿𝚃𝙰𝙸𝙽 𝙼𝙰𝚁𝚅𝙴𝙻⚡"
-        await reply7.delete()
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode='html'
@@ -946,28 +880,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-             text="❀     "
-        )
-        await query.message.edit_text(
-            text="❀❀    "
-        )
-        await query.message.edit_text(
-            text="❀❀❀   "
-        )
-        await query.message.edit_text(
-            text="❀❀❀❀  "
-        )
-        await query.message.edit_text(
-            text="❀❀❀❀❀ "
-        )
-        await query.message.edit_text(
-            text="lσαdíng"
-        )
-        await query.message.edit_text(
-            text="𝙲𝙰𝙿𝚃𝙰𝙸𝙽 𝙼𝙰𝚁𝚅𝙴𝙻⚡"
-        await reply7.delete()
-        reply_markup = InlineKeyboardMarkup(buttons)
         await query.answer("𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗆𝗒 𝖧𝖾𝗅𝗉 𝗆𝗈𝖽𝗎𝗅𝖾")
         await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -981,28 +893,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
         ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-             text="❀     "
-        )
-        await query.message.edit_text(
-            text="❀❀    "
-        )
-        await query.message.edit_text(
-            text="❀❀❀   "
-        )
-        await query.message.edit_text(
-            text="❀❀❀❀  "
-        )
-        await query.message.edit_text(
-            text="❀❀❀❀❀ "
-        )
-        await query.message.edit_text(
-            text="lσαdíng"
-        )
-        await query.message.edit_text(
-            text="𝙲𝙰𝙿𝚃𝙰𝙸𝙽 𝙼𝙰𝚁𝚅𝙴𝙻⚡"
-        await reply7.delete()
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
