@@ -774,7 +774,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await query.message.edit_text(
             text="𝙲𝙰𝙿𝚃𝙰𝙸𝙽 𝙼𝙰𝚁𝚅𝙴𝙻⚡"
-        await reply4.delete()
+        await reply7.delete()
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -826,7 +826,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await query.message.edit_text(
             text="𝙲𝙰𝙿𝚃𝙰𝙸𝙽 𝙼𝙰𝚁𝚅𝙴𝙻⚡"
-        await reply4.delete()
+        await reply7.delete()
         reply_markup = InlineKeyboardMarkup(buttons)        
         await query.message.edit_text(        
             text="Select your required mode from below!",
@@ -896,7 +896,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await query.message.edit_text(
             text="𝙲𝙰𝙿𝚃𝙰𝙸𝙽 𝙼𝙰𝚁𝚅𝙴𝙻⚡"
-        await reply4.delete()
+        await reply7.delete()
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -966,7 +966,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await query.message.edit_text(
             text="𝙲𝙰𝙿𝚃𝙰𝙸𝙽 𝙼𝙰𝚁𝚅𝙴𝙻⚡"
-        await reply4.delete()
+        await reply7.delete()
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.answer("𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗆𝗒 𝖧𝖾𝗅𝗉 𝗆𝗈𝖽𝗎𝗅𝖾")
         await query.message.edit_text(
@@ -1002,7 +1002,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await query.message.edit_text(
             text="𝙲𝙰𝙿𝚃𝙰𝙸𝙽 𝙼𝙰𝚁𝚅𝙴𝙻⚡"
-        await reply4.delete()
+        await reply7.delete()
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
